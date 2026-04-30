@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Portfolio</title>
 
+<!-- FONT AWESOME -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- CSS -->
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,175 +17,197 @@
 <!-- NAVBAR -->
 <header>
 <nav class="navbar">
-  <h2 class="logo">Portfolio</h2>
+  <h2 class="logo">Justine Piol</h2>
 
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#projects">Projects</a></li>
     <li><a href="#resume">Resume</a></li>
-   <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 
+  <!-- DARK MODE -->
   <div class="dark-mode-toggle" onclick="toggleDarkMode()">
     <i class="fas fa-moon"></i>
   </div>
 </nav>
 </header>
 
-<!-- HOME -->
+<!-- HERO -->
 <section id="home" class="hero">
 <div class="hero-container">
 
 <div class="hero-text">
-<h1>Hello, I'm</h1>
-<h2>Piol Justine Rabaja</h2>
-<h3>Aspiring Web Developer</h3>
+<h1>Hi, I'm Justine Lhei Piol</h1>
+<h2>Aspiring Developer</h2>
 
 <p>
-I am passionate about creating modern and responsive websites and continuously improving my skills in web development.
+I build modern, clean, and interactive websites.
 </p>
 
-<div class="social-icons">
-<a href="#"><i class="fab fa-facebook-f"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-tiktok"></i></a>
-<a href="#"><i class="fab fa-github"></i></a>
-<a href="#"><i class="fab fa-linkedin-in"></i></a>
-</div>
-
 <div class="hero-buttons">
-<a href="#contact" class="btn primary">Contact Me</a>
-<a href="resume.pdf" download class="btn secondary">Download CV</a>
+<a href="#projects" class="btn primary">View Projects</a>
+<a href="#contact" class="btn secondary">Contact Me</a>
 </div>
-
 </div>
 
 <div class="hero-image">
-<img src="profile.jpg">
+<img src="myphoto.jpg" alt="Profile">
 </div>
 
 </div>
 </section>
 
-<!-- ABOUT -->
+   <!-- ABOUT -->
 <section id="about" class="about">
-<div class="about-container">
-<h2>About Me</h2>
-<p>
-Hi! I'm an aspiring Frontend Developer passionate about building clean and responsive websites. 
-I enjoy learning new technologies and improving my skills in HTML, CSS, and JavaScript.
-</p>
-</div>
-</section>
+  <div class="about-container glass">
+    <div class="about-image">
+      <img src="myphoto.jpg" alt="Profile" class="about-img">
+    </div>
+
+    <div class="about-text">
+      <h2 class="section-title">About Me</h2>
+
+      <p>
+       Hi! I'm an aspiring Frontend Developer who is passionate about
+        building clean and responsive websites. I have a basic understanding
+        of HTML, CSS, and JavaScript, and I am always eager to learn new 
+        skills and improve my knowledge in web development.
+      </p>
+
+      <p>📅 Age: 19</p>
+      <p>📍 Philippines</p>
+      <p>📧 your@email.com</p>
+    </div>
+  </div>
+</section> 
 
 <!-- SKILLS -->
 <section id="skills" class="skills">
-<h2>My Skills</h2>
 
-<div class="skills-container">
+   
+<section id="skills" class="skills">
 
-<div class="skill-card">
-<i class="fab fa-html5"></i>
-<h3>HTML5</h3>
-</div>
+  <h2 class="section-title">My Skills</h2>
 
-<div class="skill-card">
-<i class="fab fa-css3-alt"></i>
-<h3>CSS3</h3>
-</div>
+  <div class="skills-box">
 
-<div class="skill-card">
-<i class="fab fa-js"></i>
-<h3>JavaScript</h3>
-</div>
+    <div class="skill">
+      <span>HTML</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:90%"></div>
+      </div>
+    </div>
 
-<div class="skill-card">
-<i class="fas fa-users"></i>
-<h3>Teamwork</h3>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:85%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:80%"></div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+
+  <h2 class="section-title">My Projects</h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <img src="project1.jpg">
+      <h3>Portfolio Website</h3>
+      <p>Built with HTML, CSS, JS</p>
+      <a href="#" class="btn primary">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="project2.jpg">
+      <h3>Landing Page</h3>
+      <p>Modern UI design</p>
+      <a href="#" class="btn primary">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="project3.jpg">
+      <h3>To-do App</h3>
+      <p>Task management app</p>
+      <a href="#" class="btn primary">View Project</a>
+    </div>
+  </div>
+  </div>
+
+</section>
+<!-- RESUME -->
+<section id="resume" class="resume">
+<h2 class="section-title">My Resume</h2>
+<div class="resume-container glass">
+
+<img src="resume-icon.png" alt="resume">
+
+<div>
+<h2>My Resume</h2>
+
+<p>
+Download my CV to learn more about my education, experience,
+skills and achievements.
+</p>
+
+<a href="resume.pdf" download class="download-btn">
+Download CV
+</a>
+
+<p>File type: PDF | Size: 1.2 MB</p>
+
 </div>
 
 </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="contact">
-<h2>Contact Me</h2>
+ <section id="contact" class="contact">
 
-<div class="contact-container">
+  <h2 class="section-title">Contact Me</h2>
 
-<div class="contact-box">
-<h3>Email</h3>
-<p><a href="mailto:yourgmail@gmail.com">yourgmail@gmail.com</a></p>
+  <div class="contact-icons">
+
+  <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+  <a href="tel:+639123456789"><i class="fas fa-phone"></i></a>
+  <a href="#"><i class="fab fa-github"></i></a>
 </div>
 
-<div class="contact-box">
-<h3>Phone</h3>
-<p><a href="tel:+639123456789">+63 912 345 6789</a></p>
-</div>
-
-<div class="contact-box">
-<h3>Facebook</h3>
-<p><a href="#">facebook.com/yourprofile</a></p>
-</div>
-
-<div class="contact-box">
-<h3>Instagram</h3>
-<p><a href="#">@yourusername</a></p>
-</div>
-
-</div>
-</section>
-
-<!-- RESUME -->
-<section id="resume" class="resume">
-<div class="resume-container">
-  <a href="resume.pdf" download class="project-btn">
-  Download Resume
-</a>
-<h2>My Resume</h2>
-
-<h3>Education</h3>
-<p>BS Information Technology (2022 - Present)</p>
-
-<h3>Experience</h3>
-<p>Frontend Developer (Student Projects)</p>
-
-<h3>Skills</h3>
-<p>HTML, CSS, JavaScript</p>
-
-</div>
-</section>
-<section id="projects" class="projects">
-  <h2>My Projects</h2>
-
-  <div class="project-card">
-    <h3>Portfolio Website</h3>
-    <p>Built using HTML, CSS</p>
-    <a href="index.html" target="_blank" class="project-btn">
-      View Project
-    </a>
   </div>
 
-  <div class="project-card">
-    <h3>My Resume (Word)</h3>
-    <p>My personal resume created in Microsoft Word</p>
-    <a href="resume.docx" target="_blank" class="project-btn">
-      Open Resume File
-    </a>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
   </div>
 
 </section>
+
 
 <!-- FOOTER -->
 <footer class="footer">
-  <h3>Piol Justine Rabaja</h3>
-  <p>Aspiring Web Developer</p>
-  <p>Thank you for visiting my portfolio website!</p>
-  <p>© 2026 All Rights Reserved</p>
+<h3>Justin.</h3>
+<p>Thank you for visiting my portfolio website 💜</p>
+<p>© 2026 All Rights Reserved</p>
 </footer>
 
+<!-- SCRIPT -->
 <script src="script.js"></script>
 
 </body>
